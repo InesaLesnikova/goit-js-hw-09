@@ -22,11 +22,30 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  padding: 8px;
 }
 
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+
+
+.main-item {
+  width: 200px;
+  padding: 5px;
+  background-color: #d9ead3;
+  border-radius: 5px;
+  font-size: 24px;
+  color: black;
+  margin: 15px auto;
+}
+
+.main-link {
+  display: block;
+  padding: 8px;
 }
